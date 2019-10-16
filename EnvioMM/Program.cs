@@ -17,10 +17,7 @@ namespace EnvioDeMercancia
             MostrarResultados(valorTarifa, valorDescuento, valorPromocion);
         }
 
-        static void PedirDatos(out decimal pesoMercancia,
-                               out decimal valorMercancia,
-                               out string esLunes,
-                               out string tipoPago)
+        static void PedirDatos(out decimal pesoMercancia, out decimal valorMercancia, out string esLunes, out string tipoPago)
         {
             Console.Write("Peso mercancia____________________?");
             pesoMercancia = Convert.ToDecimal(Console.ReadLine());
