@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ENVÍO_DE_MERCANCÍAS
+namespace EnvioDeMercancia
 {
     class Program
     {
